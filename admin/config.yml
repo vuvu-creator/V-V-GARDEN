@@ -1,0 +1,107 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+editor:
+  preview: false
+
+collections:
+  - name: "website"
+    label: "Quản lý website"
+    format: "json"
+    files:
+      - label: "Thông tin và nội dung trang"
+        name: "site"
+        file: "content/site.json"
+        fields:
+          - { label: "Tên cửa hàng", name: "brand", widget: "string" }
+          - { label: "Khẩu hiệu", name: "tagline", widget: "string" }
+          - { label: "Tên người làm vườn", name: "ownerName", widget: "string" }
+          - { label: "Tiêu đề lớn đầu trang", name: "heroTitle", widget: "string" }
+          - { label: "Mô tả đầu trang", name: "heroText", widget: "text" }
+          - { label: "Ảnh lớn đầu trang", name: "heroImage", widget: "image" }
+          - { label: "Tiêu đề câu chuyện", name: "aboutTitle", widget: "string" }
+          - { label: "Nội dung câu chuyện", name: "aboutText", widget: "text" }
+          - { label: "Ảnh phần câu chuyện", name: "aboutImage", widget: "image" }
+          - { label: "Nội dung cuối trang", name: "footerText", widget: "text" }
+          - { label: "Số điện thoại hiển thị", name: "phone", widget: "string" }
+          - { label: "Số điện thoại liền số", name: "phoneRaw", widget: "string", hint: "Ví dụ: 0901234567" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Khu vực", name: "location", widget: "string" }
+          - { label: "Link Facebook", name: "facebookUrl", widget: "string" }
+          - { label: "Link Zalo", name: "zaloUrl", widget: "string" }
+
+          - label: "Hành trình bằng hình ảnh"
+            name: "stories"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Ảnh", name: "image", widget: "image" }
+              - { label: "Chú thích", name: "caption", widget: "text" }
+
+          - label: "Danh mục nổi bật"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Tên danh mục", name: "name", widget: "string" }
+              - { label: "Dòng mô tả ngắn", name: "subtitle", widget: "string" }
+              - { label: "Ảnh", name: "image", widget: "image" }
+
+          - label: "Bài chia sẻ kinh nghiệm"
+            name: "articles"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Nhãn chủ đề", name: "tag", widget: "string" }
+              - { label: "Ảnh", name: "image", widget: "image" }
+              - { label: "Mô tả ngắn", name: "excerpt", widget: "text" }
+
+          - label: "Thư viện ảnh"
+            name: "gallery"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Nhóm ảnh", name: "category", widget: "string" }
+              - { label: "Ảnh", name: "image", widget: "image" }
+              - { label: "Chú thích", name: "caption", widget: "string" }
+
+          - label: "Phản hồi khách hàng"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Tên khách", name: "name", widget: "string" }
+              - { label: "Nội dung phản hồi", name: "text", widget: "text" }
+              - { label: "Ghi chú", name: "note", widget: "string", required: false }
+
+      - label: "Sản phẩm"
+        name: "products"
+        file: "content/products.json"
+        fields:
+          - label: "Danh sách sản phẩm"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}đ — {{fields.status}}"
+            fields:
+              - { label: "Mã sản phẩm", name: "id", widget: "string", hint: "Không trùng mã của sản phẩm khác. Ví dụ HH-HD-20" }
+              - { label: "Tên sản phẩm", name: "name", widget: "string" }
+              - { label: "Danh mục", name: "category", widget: "string", hint: "Ví dụ: Hạt giống hoa, Cây giống hoa, Combo người mới" }
+              - { label: "Giá bán", name: "price", widget: "number", value_type: "int", min: 0 }
+              - { label: "Giá cũ", name: "oldPrice", widget: "number", value_type: "int", min: 0, required: false, default: 0 }
+              - label: "Trạng thái"
+                name: "status"
+                widget: "select"
+                options:
+                  - { label: "Còn hàng", value: "available" }
+                  - { label: "Nhận đặt trước", value: "preorder" }
+                  - { label: "Hết hàng", value: "out" }
+              - { label: "Số lượng tồn", name: "stock", widget: "number", value_type: "int", min: 0, default: 0 }
+              - { label: "Nhãn nổi bật", name: "badge", widget: "string", required: false, hint: "Ví dụ: Bán chạy, Mới về, Giao gần" }
+              - { label: "Mô tả ngắn", name: "description", widget: "text" }
+              - { label: "Ảnh sản phẩm", name: "image", widget: "image" }
+              - { label: "Hiển thị nổi bật", name: "featured", widget: "boolean", default: true, required: false }

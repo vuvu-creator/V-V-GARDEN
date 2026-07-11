@@ -1,0 +1,123 @@
+CÀI WEBSITE VÀ DECAP CMS TỪNG BƯỚC
+==================================
+
+PHẦN A — ĐƯA WEBSITE LÊN GITHUB
+
+1. Tải file vuon-hoa-decap.zip và giải nén.
+2. Đăng ký hoặc đăng nhập GitHub.
+3. Bấm dấu + ở góc phải -> New repository.
+4. Repository name: vuon-hoa-online.
+5. Chọn Private nếu không muốn người khác xem mã nguồn; Public cũng dùng được.
+6. Có thể tích Add a README file, sau đó bấm Create repository.
+7. Trong kho vừa tạo, chọn Add file -> Upload files.
+8. Mở thư mục vuon-hoa-decap đã giải nén.
+9. Chọn TOÀN BỘ file và thư mục bên trong, không tải riêng file ZIP.
+10. Kéo chúng vào trang GitHub.
+11. Bấm Commit changes.
+12. Kiểm tra nhánh mặc định của kho là main.
+
+PHẦN B — KẾT NỐI GITHUB VỚI NETLIFY
+
+1. Đăng nhập Netlify.
+2. Chọn Add new project -> Import an existing project.
+3. Chọn GitHub và cấp quyền truy cập kho.
+4. Chọn repository vuon-hoa-online.
+5. Website này không cần build command.
+6. Publish directory để trống hoặc nhập dấu chấm: .
+7. Bấm Publish/Deploy.
+8. Chờ Netlify cấp địa chỉ dạng https://ten-ngau-nhien.netlify.app
+9. Mở địa chỉ đó để kiểm tra website.
+
+Lưu ý: Decap CMS không hoạt động đầy đủ nếu website chỉ được kéo thủ công lên Netlify. Netlify phải được liên kết với kho GitHub/GitLab.
+
+PHẦN C — BẬT NETLIFY IDENTITY
+
+1. Trong Netlify, mở project website.
+2. Vào Project configuration -> Identity.
+3. Bấm Enable Identity.
+4. Vào Registration preferences.
+5. Chọn Invite only. Đây là lựa chọn an toàn hơn Open registration.
+
+PHẦN D — BẬT GIT GATEWAY
+
+1. Vẫn trong Project configuration -> Identity.
+2. Mở Services -> Git Gateway.
+3. Bấm Enable Git Gateway.
+4. Nếu Netlify yêu cầu quyền hoặc access token GitHub, làm theo nút kết nối hiển thị.
+5. Git Gateway phải trỏ đúng repository vuon-hoa-online và nhánh main.
+
+PHẦN E — MỜI TÀI KHOẢN QUẢN TRỊ
+
+1. Vào Project configuration -> Identity -> Users.
+2. Chọn Invite users.
+3. Nhập email bạn muốn dùng để quản trị.
+4. Mở email mời từ Netlify.
+5. Bấm Accept the invite/Đồng ý lời mời.
+6. Đặt mật khẩu.
+7. Sau khi hoàn thành, truy cập:
+   https://TEN-WEBSITE-CUA-BAN.netlify.app/admin/
+8. Đăng nhập bằng email và mật khẩu vừa tạo.
+
+Nếu bấm link trong email nhưng không thấy form đặt mật khẩu:
+- Mở link bằng Chrome.
+- Tắt trình chặn popup cho website.
+- Đảm bảo Identity đã được bật đúng project.
+- Quay lại Identity -> Users và gửi lại lời mời nếu link đã hết hạn.
+
+PHẦN F — TỰ SỬA SẢN PHẨM TRỰC TIẾP
+
+1. Vào /admin/ và đăng nhập.
+2. Chọn Quản lý website -> Sản phẩm.
+3. Mở Danh sách sản phẩm.
+4. Bấm Add item để thêm sản phẩm.
+5. Nhập mã, tên, danh mục, giá, tồn kho và mô tả.
+6. Ở Ảnh sản phẩm, bấm Choose an image -> Upload.
+7. Chọn ảnh từ điện thoại hoặc máy tính.
+8. Chọn trạng thái:
+   - Còn hàng
+   - Nhận đặt trước
+   - Hết hàng
+9. Bấm Publish/Lưu thay đổi.
+10. Decap ghi thay đổi vào GitHub; Netlify tự triển khai lại.
+11. Chờ trang cập nhật rồi tải lại website.
+
+PHẦN G — SỬA TÊN, SỐ ĐIỆN THOẠI VÀ ẢNH ĐẦU TRANG
+
+1. Vào /admin/.
+2. Chọn Quản lý website -> Thông tin và nội dung trang.
+3. Sửa tên cửa hàng, khẩu hiệu, điện thoại, email, Facebook và Zalo.
+4. Thay ảnh lớn đầu trang và ảnh câu chuyện bằng nút Upload.
+5. Có thể thêm/xóa ảnh hành trình, danh mục, bài kinh nghiệm và thư viện ảnh.
+6. Bấm Publish.
+
+PHẦN H — LỖI THƯỜNG GẶP
+
+1. Trang /admin/ hiện Page not found:
+- Kiểm tra GitHub có thư mục admin, bên trong có index.html và config.yml.
+- Kiểm tra Netlify đã deploy commit mới nhất.
+
+2. Lỗi Login hoặc Failed to load settings:
+- Bật Identity.
+- Bật Git Gateway.
+- Netlify phải liên kết đúng repository.
+- Nhánh trong admin/config.yml phải là main.
+
+3. Đăng nhập được nhưng không lưu:
+- Kiểm tra Git Gateway có quyền ghi repository.
+- Kết nối lại repository hoặc cấp lại access token trong Git Gateway.
+
+4. Ảnh đã tải nhưng không hiện:
+- Kiểm tra commit có file trong assets/uploads.
+- Chờ Netlify deploy hoàn tất.
+- Tải lại trang bằng Ctrl + F5.
+
+5. Đổi sản phẩm nhưng web chưa cập nhật:
+- Vào Netlify -> Deploys kiểm tra deploy mới.
+- Nếu deploy đang chạy, chờ hoàn tất.
+- Nếu deploy lỗi, mở log để xem file JSON hoặc cấu hình nào sai.
+
+BẢO MẬT
+- Luôn để đăng ký ở chế độ Invite only.
+- Không chia sẻ tài khoản quản trị.
+- Không ghi mật khẩu, khóa API hoặc thông tin ngân hàng bí mật vào GitHub.
+- Nếu mời thêm người sửa web, chỉ mời email tin cậy.

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cây giống hoa, hạt giống hoa và kinh nghiệm làm vườn cho ban công nhỏ.">
+  <meta name="theme-color" content="#315f49">
+  <title>Vườn Hoa Mộc Nhiên</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script defer src="data/config.js"></script>
+  <script defer src="data/products.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <div class="announcement">
+    <span>🌱 Cây giống khỏe mạnh</span>
+    <span>•</span>
+    <span>Hướng dẫn chăm sóc sau mua</span>
+    <span>•</span>
+    <span>Hạt giống giao toàn quốc</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Về trang chủ">
+        <span class="brand-flower">✿</span>
+        <span>
+          <strong data-brand>Vườn Hoa Mộc Nhiên</strong>
+          <small data-tagline>Gieo bình yên từ một góc ban công</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Điều hướng chính">
+        <a href="#cau-chuyen">Câu chuyện</a>
+        <a href="#danh-muc">Danh mục</a>
+        <a href="#san-pham">Sản phẩm</a>
+        <a href="#kinh-nghiem">Kinh nghiệm</a>
+        <a href="#thu-vien">Thư viện</a>
+        <a href="#lien-he">Liên hệ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="round-btn menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+        <button class="cart-btn" id="cartBtn" aria-label="Mở giỏ hàng">
+          <span>🛒</span><span class="cart-label">Giỏ hàng</span>
+          <b id="cartCount">0</b>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-panel" id="mobilePanel" aria-hidden="true">
+    <button class="panel-close" id="mobileClose" aria-label="Đóng menu">×</button>
+    <a href="#cau-chuyen">Câu chuyện</a>
+    <a href="#danh-muc">Danh mục</a>
+    <a href="#san-pham">Sản phẩm</a>
+    <a href="#kinh-nghiem">Kinh nghiệm</a>
+    <a href="#thu-vien">Thư viện</a>
+    <a href="#lien-he">Liên hệ</a>
+  </div>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <span class="kicker">Cây thật từ vườn • Chăm sóc bằng trải nghiệm thật</span>
+          <h1 data-hero-title>Biến góc ban công nhỏ thành khu vườn rực rỡ.</h1>
+          <p data-hero-text>Chọn cây giống, hạt giống và nhận hướng dẫn chăm sóc phù hợp với nắng, gió và không gian của chính ngôi nhà bạn.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#san-pham">Xem cây & hạt giống</a>
+            <a class="btn btn-ghost" href="#kinh-nghiem">Đọc kinh nghiệm</a>
+          </div>
+          <div class="hero-promises">
+            <div><i>✦</i><span><strong>Tự tay trồng</strong><small>Ảnh và kinh nghiệm thực tế</small></span></div>
+            <div><i>✦</i><span><strong>Đóng gói kỹ</strong><small>Giảm dập gãy khi vận chuyển</small></span></div>
+            <div><i>✦</i><span><strong>Hỗ trợ sau mua</strong><small>Không bán xong rồi thôi</small></span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img class="hero-main-img" data-hero-image alt="Khu vườn hoa trên ban công">
+          <div class="hero-note note-one">
+            <span>Ảnh vườn thật</span>
+            <strong>Mỗi mùa một sắc hoa</strong>
+          </div>
+          <div class="hero-note note-two">
+            <span>Hỗ trợ lựa chọn</span>
+            <strong>Đúng hoa cho đúng nắng</strong>
+          </div>
+          <div class="floating-leaf leaf-a">❧</div>
+          <div class="floating-leaf leaf-b">❧</div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#cau-chuyen"><span>Cuộn xuống</span>⌄</a>
+    </section>
+
+    <section class="about section-pad" id="cau-chuyen">
+      <div class="shell about-grid">
+        <div class="about-photo reveal">
+          <img data-about-image alt="Người làm vườn chăm sóc hoa">
+          <div class="photo-caption">
+            <span>Về người làm vườn</span>
+            <strong data-owner-name>Người yêu hoa từ những điều nhỏ bé</strong>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="section-label">Câu chuyện của tôi</span>
+          <h2 data-about-title>Tôi bắt đầu từ vài chậu hoa nhỏ ngoài ban công.</h2>
+          <p data-about-text>Mỗi cây tôi bán đều là loại tôi đã trực tiếp trồng, quan sát và rút kinh nghiệm. Tôi muốn giúp người mới tránh những lỗi mình từng gặp và có một góc xanh dễ chăm hơn.</p>
+          <ul class="check-list">
+            <li>Tư vấn dựa trên hướng nắng và diện tích trồng</li>
+            <li>Chia sẻ cả những lần trồng thất bại, không tô hồng kết quả</li>
+            <li>Đồng hành từ lúc nhận cây đến khi cây ổn định</li>
+          </ul>
+          <a class="text-link" href="#hanh-trinh">Xem hành trình làm vườn <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-pad" id="hanh-trinh">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="section-label">Câu chuyện bằng hình ảnh</span>
+          <h2>Hành trình hồi sinh một góc ban công</h2>
+          <p>Ảnh mẫu đang được dùng để trình bày bố cục. Hãy thay bằng ảnh thật của vườn để tăng độ tin cậy.</p>
+        </div>
+        <div class="story-strip" id="storyStrip"></div>
+        <div class="strip-hint">← Kéo ngang hoặc dùng con lăn để xem tiếp →</div>
+      </div>
+    </section>
+
+    <section class="values section-pad">
+      <div class="shell">
+        <div class="section-heading center reveal">
+          <span class="section-label">Giá trị cốt lõi</span>
+          <h2>Không chỉ bán cây — chúng tôi bán một trải nghiệm làm vườn dễ bắt đầu.</h2>
+        </div>
+        <div class="values-grid">
+          <article class="value-card reveal"><i>🌿</i><h3>Cây giống khỏe</h3><p>Kiểm tra tình trạng cây, rễ và độ ẩm trước khi đóng gói.</p></article>
+          <article class="value-card reveal"><i>📦</i><h3>Đóng gói phù hợp</h3><p>Tách cách đóng gói cho cây sống, hạt giống và phụ kiện.</p></article>
+          <article class="value-card reveal"><i>💬</i><h3>Hỗ trợ sau mua</h3><p>Hướng dẫn cây làm quen môi trường mới và xử lý dấu hiệu bất thường.</p></article>
+          <article class="value-card reveal"><i>🎥</i><h3>Hướng dẫn trực quan</h3><p>Video ngắn, hình ảnh thật và các bước chăm sóc dễ thực hiện.</p></article>
+          <article class="value-card reveal"><i>☀️</i><h3>Chọn theo điều kiện</h3><p>Phân nhóm theo nắng, mùa, độ khó và diện tích trồng.</p></article>
+          <article class="value-card reveal"><i>🤍</i><h3>Đồng hành lâu dài</h3><p>Xây cộng đồng người mới trồng hoa thay vì chỉ bán một lần.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section-pad" id="danh-muc">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="section-label">Khám phá theo nhu cầu</span>
+          <h2>Chọn đúng thứ bạn cần cho khu vườn nhỏ.</h2>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </div>
+    </section>
+
+    <section class="products section-pad" id="san-pham">
+      <div class="shell">
+        <div class="section-heading product-heading reveal">
+          <div>
+            <span class="section-label">Sản phẩm nổi bật</span>
+            <h2>Cây giống và hạt giống đang có tại vườn</h2>
+          </div>
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="productSearch" type="search" placeholder="Tìm tên hoa...">
+          </label>
+        </div>
+        <div class="filter-row" id="productFilters"></div>
+        <div class="product-grid" id="productGrid"></div>
+        <p class="product-note">Cây sống có thể giới hạn khu vực giao. Cửa hàng sẽ xác nhận lại phí vận chuyển và thời gian giao sau khi nhận đơn.</p>
+      </div>
+    </section>
+
+    <section class="tips section-pad" id="kinh-nghiem">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="section-label">Góc chia sẻ</span>
+          <h2>Kinh nghiệm trồng hoa từ những lần tự tay làm.</h2>
+        </div>
+        <div class="article-grid" id="articleGrid"></div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="thu-vien">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <span class="section-label">Thư viện ảnh</span>
+          <h2>Khu vườn qua từng mùa hoa</h2>
+          <p>Bấm vào ảnh để xem lớn. Nên thay toàn bộ ảnh mẫu bằng ảnh sản phẩm và khu vườn thật.</p>
+        </div>
+        <div class="gallery-filter" id="galleryFilters"></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="testimonials section-pad">
+      <div class="shell">
+        <div class="section-heading center reveal">
+          <span class="section-label">Khách hàng nói gì</span>
+          <h2>Niềm vui từ những khu vườn nhỏ</h2>
+        </div>
+        <div class="testimonial-grid" id="testimonialGrid"></div>
+      </div>
+    </section>
+
+    <section class="newsletter section-pad">
+      <div class="shell newsletter-box reveal">
+        <div>
+          <span class="section-label light">Lịch trồng hoa theo mùa</span>
+          <h2>Nhận mẹo chăm cây và thông báo khi có giống mới.</h2>
+          <p>Không gửi thư rác. Chỉ gửi nội dung làm vườn hữu ích và ưu đãi của cửa hàng.</p>
+        </div>
+        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="/success.html">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="email" name="email" required placeholder="Email của bạn">
+          <button type="submit">Đăng ký</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="lien-he">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <div class="brand inverse">
+          <span class="brand-flower">✿</span>
+          <span><strong data-brand>Vườn Hoa Mộc Nhiên</strong><small data-tagline>Gieo bình yên từ một góc ban công</small></span>
+        </div>
+        <p data-footer-text>Cây giống hoa, hạt giống hoa và kinh nghiệm làm vườn dành cho những người muốn bắt đầu từ một góc nhỏ.</p>
+      </div>
+      <div>
+        <h3>Khám phá</h3>
+        <a href="#cau-chuyen">Câu chuyện</a>
+        <a href="#san-pham">Cây & hạt giống</a>
+        <a href="#kinh-nghiem">Kinh nghiệm</a>
+        <a href="#thu-vien">Thư viện ảnh</a>
+      </div>
+      <div>
+        <h3>Liên hệ</h3>
+        <p data-location>Khu vực của bạn</p>
+        <a data-phone-link href="tel:0900000000"><span data-phone>0900 000 000</span></a>
+        <a data-email-link href="mailto:hello@example.com"><span data-email>hello@example.com</span></a>
+        <div class="socials">
+          <a data-facebook-link href="#" target="_blank" rel="noopener">Facebook</a>
+          <a data-zalo-link href="#" target="_blank" rel="noopener">Zalo</a>
+        </div>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <span id="year"></span> <span data-brand>Vườn Hoa Mộc Nhiên</span>.</span>
+      <a href="/admin/">Đăng nhập quản trị</a>
+    </div>
+  </footer>
+
+  <div class="page-overlay" id="pageOverlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div><small>Đơn hàng của bạn</small><h2>Giỏ hàng</h2></div>
+      <button class="icon-close" id="cartClose" aria-label="Đóng giỏ hàng">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="drawer-foot">
+      <div class="cart-total"><span>Tạm tính</span><strong id="cartTotal">0₫</strong></div>
+      <p>Phí giao hàng được xác nhận sau, tùy loại cây và khu vực.</p>
+      <button class="btn btn-primary full" id="checkoutOpen">Điền thông tin & đặt hàng</button>
+    </div>
+  </aside>
+
+  <section class="checkout-modal modal" id="checkoutModal" aria-hidden="true">
+    <div class="modal-head">
+      <div><small>Hoàn tất đơn</small><h2>Thông tin nhận hàng</h2></div>
+      <button class="icon-close" data-modal-close aria-label="Đóng">×</button>
+    </div>
+    <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+      <input type="hidden" name="form-name" value="order">
+      <p class="hidden"><label>Không điền ô này: <input name="bot-field"></label></p>
+      <input type="hidden" name="order_items" id="orderItemsField">
+      <input type="hidden" name="order_total" id="orderTotalField">
+      <div class="form-grid">
+        <label><span>Họ và tên *</span><input name="name" required autocomplete="name"></label>
+        <label><span>Số điện thoại *</span><input name="phone" required inputmode="tel" autocomplete="tel"></label>
+        <label class="wide"><span>Địa chỉ nhận hàng *</span><input name="address" required autocomplete="street-address"></label>
+        <label><span>Email</span><input name="email" type="email" autocomplete="email"></label>
+        <label><span>Thanh toán</span>
+          <select name="payment">
+            <option>Thanh toán khi nhận hàng (COD)</option>
+            <option>Chuyển khoản ngân hàng</option>
+          </select>
+        </label>
+        <label class="wide"><span>Ghi chú</span><textarea name="note" rows="3" placeholder="Ví dụ: gọi trước khi giao, màu hoa mong muốn..."></textarea></label>
+      </div>
+      <div class="checkout-summary" id="checkoutSummary"></div>
+      <button class="btn btn-primary full" type="submit">Xác nhận đặt hàng</button>
+      <button class="btn btn-ghost full" type="button" id="copyOrderBtn">Sao chép đơn để gửi Zalo/Messenger</button>
+      <p class="form-note">Khi đăng website lên Netlify, đơn sẽ được lưu trong mục Forms. Bạn có thể bật thông báo email trong Netlify.</p>
+    </form>
+  </section>
+
+  <section class="lightbox modal" id="lightbox" aria-hidden="true">
+    <button class="icon-close lightbox-close" data-modal-close aria-label="Đóng ảnh">×</button>
+    <img id="lightboxImage" alt="">
+    <p id="lightboxCaption"></p>
+  </section>
+
+  <div class="toast" id="toast" role="status">Đã thêm vào giỏ hàng</div>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            window.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

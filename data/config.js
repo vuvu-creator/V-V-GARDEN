@@ -1,0 +1,65 @@
+window.SITE_CONFIG = {
+  brand: "Vườn Hoa Mộc Nhiên",
+  tagline: "Gieo bình yên từ một góc ban công",
+  ownerName: "Người yêu hoa từ những điều nhỏ bé",
+  heroTitle: "Biến góc ban công nhỏ thành khu vườn rực rỡ.",
+  heroText: "Chọn cây giống, hạt giống và nhận hướng dẫn chăm sóc phù hợp với nắng, gió và không gian của chính ngôi nhà bạn.",
+  aboutTitle: "Tôi bắt đầu từ vài chậu hoa nhỏ ngoài ban công.",
+  aboutText: "Mỗi cây tôi bán đều là loại tôi đã trực tiếp trồng, quan sát và rút kinh nghiệm. Tôi muốn giúp người mới tránh những lỗi mình từng gặp và có một góc xanh dễ chăm hơn.",
+  footerText: "Cây giống hoa, hạt giống hoa và kinh nghiệm làm vườn dành cho những người muốn bắt đầu từ một góc nhỏ.",
+  phone: "0900 000 000",
+  phoneRaw: "0900000000",
+  email: "hello@example.com",
+  location: "Việt Nam",
+  facebookUrl: "https://facebook.com/",
+  zaloUrl: "https://zalo.me/",
+  heroImage: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=85",
+  aboutImage: "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=1000&q=85",
+
+  // Tùy chọn: dán đường dẫn Google Sheet đã "Publish to web" dạng CSV.
+  // Khi có URL này, website sẽ lấy sản phẩm từ Google Sheet thay vì file products.js.
+  googleSheetCsv: "",
+
+  stories: [
+    {image:"https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80", caption:"Bắt đầu với những chậu cây nhỏ và học cách quan sát từng chiếc lá."},
+    {image:"https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80", caption:"Một góc ban công đủ nắng dần trở thành nơi thư giãn mỗi sáng."},
+    {image:"https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80", caption:"Tự tay thay đất, cắt tỉa và ghi lại từng phản ứng của cây."},
+    {image:"https://images.unsplash.com/photo-1519336056116-9f0c73b8c6e5?auto=format&fit=crop&w=800&q=80", caption:"Mỗi mùa thử thêm vài giống hoa phù hợp với khí hậu địa phương."},
+    {image:"https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80", caption:"Chia sẻ những cách làm đơn giản để người mới dễ bắt đầu hơn."}
+  ],
+
+  categories: [
+    {name:"Cây giống hoa", subtitle:"Cây khỏe, sẵn sàng chăm", image:"https://images.unsplash.com/photo-1509423350716-97f2360af8e4?auto=format&fit=crop&w=800&q=80"},
+    {name:"Hạt giống hoa", subtitle:"Gieo từ những điều nhỏ", image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"},
+    {name:"Hoa ban công", subtitle:"Phù hợp không gian nhỏ", image:"https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80"},
+    {name:"Hoa chịu nắng", subtitle:"Dành cho ban công nhiều nắng", image:"https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=800&q=80"},
+    {name:"Combo người mới", subtitle:"Đủ hạt, đất và hướng dẫn", image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"},
+    {name:"Đất & dụng cụ", subtitle:"Chuẩn bị cho lần gieo đầu", image:"https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"}
+  ],
+
+  articles: [
+    {title:"Cách chọn hoa phù hợp với hướng nắng của ban công", tag:"Dành cho người mới", image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80", excerpt:"Xác định số giờ nắng trước khi mua giúp giảm đáng kể nguy cơ cây suy yếu sau vài tuần."},
+    {title:"Trộn giá thể sao cho vừa giữ ẩm vừa không úng rễ", tag:"Kinh nghiệm thật", image:"https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80", excerpt:"Một công thức giá thể tốt cần được điều chỉnh theo loại cây, chậu và tần suất tưới."},
+    {title:"7 lỗi thường gặp khiến hạt hoa chậm nảy mầm", tag:"Gieo hạt", image:"https://images.unsplash.com/photo-1457530378978-8bac673b8062?auto=format&fit=crop&w=800&q=80", excerpt:"Gieo quá sâu, đất quá ướt và nhiệt độ không phù hợp là những lỗi người mới dễ gặp."},
+    {title:"Cây mới nhận về nên chăm thế nào trong 7 ngày đầu", tag:"Chăm cây", image:"https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80", excerpt:"Đừng thay chậu và bón phân quá sớm. Cây cần thời gian làm quen với môi trường mới."},
+    {title:"Cách đóng gói cây nhỏ để giảm dập gãy khi vận chuyển", tag:"Sau khu vườn", image:"https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=800&q=80", excerpt:"Cố định bầu đất, bảo vệ tán và chọn thời điểm gửi là ba yếu tố quan trọng."},
+    {title:"Lịch trồng một số loại hoa phổ biến theo mùa", tag:"Theo mùa", image:"https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80", excerpt:"Lịch chỉ là điểm bắt đầu; nhiệt độ và khí hậu tại nơi trồng mới là yếu tố quyết định."}
+  ],
+
+  gallery: [
+    {category:"Hoa cúc", image:"https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=900&q=80", caption:"Một góc hoa cúc trong nắng sớm"},
+    {category:"Ban công", image:"https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=900&q=80", caption:"Ban công xanh với nhiều tầng cây"},
+    {category:"Cây giống", image:"https://images.unsplash.com/photo-1509423350716-97f2360af8e4?auto=format&fit=crop&w=900&q=80", caption:"Cây giống khỏe trước khi đóng gói"},
+    {category:"Hoa hồng", image:"https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=900&q=80", caption:"Hoa hồng trong vườn"},
+    {category:"Hoa mùa", image:"https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80", caption:"Khu vườn nhiều sắc hoa"},
+    {category:"Ban công", image:"https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80", caption:"Không gian thư giãn giữa cây xanh"},
+    {category:"Cây giống", image:"https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80", caption:"Chuẩn bị cây và dụng cụ làm vườn"},
+    {category:"Hoa mùa", image:"https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=900&q=80", caption:"Hoa nở rực rỡ theo mùa"}
+  ],
+
+  testimonials: [
+    {name:"Khách hàng A.", text:"Cây đóng gói chắc chắn, lúc nhận vẫn tươi. Shop còn nhắn hướng dẫn cách cho cây làm quen với nắng.", note:"Phản hồi minh họa — cần thay bằng đánh giá thật"},
+    {name:"Khách hàng B.", text:"Mình mới tập trồng nhưng phần hướng dẫn dễ hiểu. Khi cây có dấu hiệu vàng lá, shop phản hồi khá nhanh.", note:"Phản hồi minh họa — cần thay bằng đánh giá thật"},
+    {name:"Khách hàng C.", text:"Combo có đủ hạt, đất ươm và hướng dẫn nên đỡ phải mua lẻ nhiều nơi. Phù hợp cho người mới.", note:"Phản hồi minh họa — cần thay bằng đánh giá thật"}
+  ]
+};

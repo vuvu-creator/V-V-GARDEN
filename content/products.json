@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": "HH-HD-20",
+      "name": "Hạt giống hướng dương lùn",
+      "category": "Hạt giống hoa",
+      "price": 25000,
+      "oldPrice": 30000,
+      "status": "available",
+      "badge": "Bán chạy",
+      "description": "Dễ trồng trong chậu, phù hợp ban công có nắng.",
+      "image": "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=800&q=80",
+      "stock": 50,
+      "featured": true
+    },
+    {
+      "id": "HH-MG-50",
+      "name": "Hạt giống hoa mười giờ nhiều màu",
+      "category": "Hạt giống hoa",
+      "price": 18000,
+      "oldPrice": 0,
+      "status": "available",
+      "badge": "Dễ trồng",
+      "description": "Chịu nắng tốt, nở nhiều màu, phù hợp người mới.",
+      "image": "https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=800&q=80",
+      "stock": 80,
+      "featured": true
+    },
+    {
+      "id": "HH-CUC-30",
+      "name": "Hạt giống cúc họa mi",
+      "category": "Hạt giống hoa",
+      "price": 28000,
+      "oldPrice": 32000,
+      "status": "available",
+      "badge": "Mới",
+      "description": "Hoa nhỏ nhẹ nhàng, phù hợp chậu và bồn hoa.",
+      "image": "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=800&q=80",
+      "stock": 35,
+      "featured": true
+    },
+    {
+      "id": "CG-DC-01",
+      "name": "Cây dừa cạn đang hoa",
+      "category": "Cây giống hoa",
+      "price": 45000,
+      "oldPrice": 55000,
+      "status": "available",
+      "badge": "Giao gần",
+      "description": "Cây khỏe, chịu nắng, phù hợp chậu và bồn sân nhà.",
+      "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80",
+      "stock": 12,
+      "featured": true
+    },
+    {
+      "id": "CG-HM-01",
+      "name": "Cây hoa hoàng mi",
+      "category": "Cây giống hoa",
+      "price": 80000,
+      "oldPrice": 0,
+      "status": "available",
+      "badge": "Mới về",
+      "description": "Hoa vàng thành chùm, cây khỏe, hợp ban công và sân vườn.",
+      "image": "https://images.unsplash.com/photo-1509423350716-97f2360af8e4?auto=format&fit=crop&w=800&q=80",
+      "stock": 9,
+      "featured": true
+    },
+    {
+      "id": "CG-PL-01",
+      "name": "Phong lữ rủ kép",
+      "category": "Cây giống hoa",
+      "price": 95000,
+      "oldPrice": 0,
+      "status": "preorder",
+      "badge": "Sắp có",
+      "description": "Hoa kép dày, dáng rủ đẹp, thích hợp treo lan can.",
+      "image": "https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=800&q=80",
+      "stock": 0,
+      "featured": true
+    },
+    {
+      "id": "CB-NM-01",
+      "name": "Combo vườn hoa cho người mới",
+      "category": "Combo người mới",
+      "price": 149000,
+      "oldPrice": 179000,
+      "status": "available",
+      "badge": "Tiết kiệm",
+      "description": "5 loại hạt, đất ươm, khay nhỏ và hướng dẫn từng bước.",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80",
+      "stock": 20,
+      "featured": true
+    },
+    {
+      "id": "DC-KU-01",
+      "name": "Bộ khay ươm và đất sạch",
+      "category": "Đất & dụng cụ",
+      "price": 79000,
+      "oldPrice": 0,
+      "status": "available",
+      "badge": "",
+      "description": "Bộ cơ bản để bắt đầu gieo hạt tại nhà.",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80",
+      "stock": 25,
+      "featured": false
+    }
+  ]
+}
