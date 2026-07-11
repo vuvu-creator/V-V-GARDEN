@@ -438,19 +438,61 @@
       renderProducts();
     });
 
-    $("#orderForm").addEventListener("submit", e => {
-      const {items} = cartData();
+    $("#orderForm").addEventListener("submit", async e => {
+      e.preventDefault();
+
+      const form = e.currentTarget;
+      const {items, total} = cartData();
+
       if (!items.length) {
-        e.preventDefault();
         showToast("Giỏ hàng đang trống");
         return;
       }
+
+      $("#orderItemsField").value = items
+        .map(p => `${p.qty} × ${p.name} (${p.id}) = ${money(p.price * p.qty)}`)
+        .join(" | ");
+      $("#orderTotalField").value = money(total);
+
       if (location.protocol === "file:") {
-        e.preventDefault();
-        copyOrder();
-        alert("Bạn đang mở website từ máy tính. Nội dung đơn đã được sao chép. Sau khi đăng lên Netlify, biểu mẫu sẽ lưu đơn tự động.");
+        await copyOrder();
+        alert("Bạn đang mở website từ máy tính. Nội dung đơn đã được sao chép. Sau khi đăng lên Netlify, đơn sẽ được lưu tự động.");
+        return;
+      }
+
+      const submitButton = form.querySelector('button[type="submit"]');
+      const oldLabel = submitButton.textContent;
+      submitButton.disabled = true;
+      submitButton.textContent = "Đang gửi đơn...";
+
+      try {
+        const body = new URLSearchParams(new FormData(form)).toString();
+        const response = await fetch("/", {
+          method: "POST",
+          headers: {"Content-Type": "application/x-www-form-urlencoded"},
+          body
+        });
+
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        state.cart = {};
+        saveCart();
+        form.reset();
+        closeModals();
+        openModal($("#orderSuccessModal"));
+      } catch (error) {
+        console.error("Không gửi được đơn hàng:", error);
+        showToast("Chưa gửi được đơn. Hãy thử lại hoặc sao chép đơn gửi Zalo.");
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = oldLabel;
       }
     });
+
+    const successCloseBtn = $("#successCloseBtn");
+    if (successCloseBtn) {
+      successCloseBtn.addEventListener("click", closeModals);
+    }
   }
 
   function observeReveal() {
