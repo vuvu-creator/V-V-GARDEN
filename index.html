@@ -215,7 +215,7 @@
           <h2>Nhận mẹo chăm cây và thông báo khi có giống mới.</h2>
           <p>Không gửi thư rác. Chỉ gửi nội dung làm vườn hữu ích và ưu đãi của cửa hàng.</p>
         </div>
-        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="/success.html">
+        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="./success.html">
           <input type="hidden" name="form-name" value="newsletter">
           <input type="email" name="email" required placeholder="Email của bạn">
           <button type="submit">Đăng ký</button>
@@ -277,7 +277,7 @@
       <div><small>Hoàn tất đơn</small><h2>Thông tin nhận hàng</h2></div>
       <button class="icon-close" data-modal-close aria-label="Đóng">×</button>
     </div>
-    <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+    <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="./success.html">
       <input type="hidden" name="form-name" value="order">
       <p class="hidden"><label>Không điền ô này: <input name="bot-field"></label></p>
       <input type="hidden" name="order_items" id="orderItemsField">
@@ -306,6 +306,18 @@
     <button class="icon-close lightbox-close" data-modal-close aria-label="Đóng ảnh">×</button>
     <img id="lightboxImage" alt="">
     <p id="lightboxCaption"></p>
+  </section>
+
+
+  <section class="modal" id="orderSuccessModal" aria-hidden="true">
+    <div class="modal-head">
+      <div><small>Đặt hàng thành công</small><h2>Đã nhận thông tin của bạn 🌸</h2></div>
+      <button class="icon-close" data-modal-close aria-label="Đóng">×</button>
+    </div>
+    <div style="padding:24px">
+      <p>Cửa hàng đã nhận được đơn. Chúng tôi sẽ kiểm tra tồn kho, phí vận chuyển và liên hệ xác nhận trước khi giao.</p>
+      <button class="btn btn-primary full" type="button" id="successCloseBtn">Tiếp tục xem sản phẩm</button>
+    </div>
   </section>
 
   <div class="toast" id="toast" role="status">Đã thêm vào giỏ hàng</div>
