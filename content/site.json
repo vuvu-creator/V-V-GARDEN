@@ -53,10 +53,6 @@
   ],
   "stories": [
     {
-      "image": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80",
-      "caption": "Bắt đầu với những chậu cây nhỏ và học cách quan sát từng chiếc lá."
-    },
-    {
       "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80",
       "caption": "Một góc ban công đủ nắng dần trở thành nơi thư giãn mỗi sáng."
     },
@@ -71,6 +67,10 @@
     {
       "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80",
       "caption": "Chia sẻ những cách làm đơn giản để người mới dễ bắt đầu hơn."
+    },
+    {
+      "caption": "Mọi hành trình đều bắt đầu từ một hạt mầm và niềm tin rằng những điều nhỏ bé có thể nở hoa.",
+      "image": "/assets/uploads/meo-gieo-hat-truc-tiep-–-nay-mam-nhanh-khong-bi-hong-2-1.jpg"
     }
   ],
   "testimonials": [
@@ -92,7 +92,7 @@
   ],
   "location": "Việt Nam",
   "aboutText": "Vũ Vũ Garden bắt đầu từ niềm yêu thích những chậu hoa nhỏ và mong muốn mang thêm sắc màu thiên nhiên vào mỗi ngôi nhà. Qua từng lần gieo hạt, chăm cây và quan sát cây lớn lên, tôi dần tích lũy những kinh nghiệm thực tế để lựa chọn các giống hoa dễ trồng, phù hợp với ban công và sân vườn.\n\nTôi mong rằng mỗi sản phẩm đến tay khách hàng không chỉ là một gói hạt giống hay một chậu cây, mà còn là khởi đầu của niềm vui, sự thư giãn và một khu vườn nhỏ do chính bạn vun trồng. Vũ Vũ Garden luôn sẵn sàng đồng hành, hướng dẫn và chia sẻ kinh nghiệm từ khi gieo hạt đến ngày hoa nở.",
-  "phoneRaw": "0898981291",
+  "phoneRaw": "08798981291",
   "categories": [
     {
       "name": "Cây giống hoa",
