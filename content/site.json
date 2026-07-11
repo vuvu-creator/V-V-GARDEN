@@ -4,10 +4,10 @@
   "heroText": "Khám phá hạt giống và cây hoa nhập khẩu chọn lọc, dễ trồng, phù hợp với ban công và sân vườn nhà bạn. Vũ Vũ Garden đồng hành cùng bạn từ lúc gieo hạt đến ngày hoa nở.",
   "brand": "Vũ Vũ Garden - Hạt Giống Hạnh Phúc",
   "footerText": "Cây giống hoa, hạt giống hoa và kinh nghiệm làm vườn dành cho những người muốn bắt đầu từ một góc nhỏ.",
-  "facebookUrl": "https://facebook.com/",
-  "aboutTitle": "Tôi bắt đầu từ vài chậu hoa nhỏ ngoài ban công.",
-  "phone": "0900 000 000",
-  "aboutImage": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=1000&q=85",
+  "facebookUrl": "https://www.facebook.com/bacsi.hoahong.31",
+  "aboutTitle": "Từ những hạt mầm nhỏ đến hành trình vun trồng hạnh phúc",
+  "phone": "0898981291",
+  "aboutImage": "/assets/uploads/725838327_1676998870184284_820281384326370423_n.jpg",
   "tagline": "Hạt Giống Từ Tâm - Ươm Mầm Hạnh Phúc",
   "gallery": [
     {
@@ -91,8 +91,8 @@
     }
   ],
   "location": "Việt Nam",
-  "aboutText": "Mỗi cây tôi bán đều là loại tôi đã trực tiếp trồng, quan sát và rút kinh nghiệm. Tôi muốn giúp người mới tránh những lỗi mình từng gặp và có một góc xanh dễ chăm hơn.",
-  "phoneRaw": "0900000000",
+  "aboutText": "Vũ Vũ Garden bắt đầu từ niềm yêu thích những chậu hoa nhỏ và mong muốn mang thêm sắc màu thiên nhiên vào mỗi ngôi nhà. Qua từng lần gieo hạt, chăm cây và quan sát cây lớn lên, tôi dần tích lũy những kinh nghiệm thực tế để lựa chọn các giống hoa dễ trồng, phù hợp với ban công và sân vườn.\n\nTôi mong rằng mỗi sản phẩm đến tay khách hàng không chỉ là một gói hạt giống hay một chậu cây, mà còn là khởi đầu của niềm vui, sự thư giãn và một khu vườn nhỏ do chính bạn vun trồng. Vũ Vũ Garden luôn sẵn sàng đồng hành, hướng dẫn và chia sẻ kinh nghiệm từ khi gieo hạt đến ngày hoa nở.",
+  "phoneRaw": "0898981291",
   "categories": [
     {
       "name": "Cây giống hoa",
@@ -125,7 +125,7 @@
       "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"
     }
   ],
-  "email": "hello@example.com",
+  "email": "bacsi.hoahong.31@gmail.com",
   "articles": [
     {
       "title": "Cách chọn hoa phù hợp với hướng nắng của ban công",
