@@ -53,28 +53,24 @@
   ],
   "stories": [
     {
-      "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80",
-      "caption": "Một góc ban công đủ nắng dần trở thành nơi thư giãn mỗi sáng."
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
-      "caption": "Tự tay thay đất, cắt tỉa và ghi lại từng phản ứng của cây."
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1519336056116-9f0c73b8c6e5?auto=format&fit=crop&w=800&q=80",
-      "caption": "Mỗi mùa thử thêm vài giống hoa phù hợp với khí hậu địa phương."
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80",
-      "caption": "Chia sẻ những cách làm đơn giản để người mới dễ bắt đầu hơn."
-    },
-    {
       "caption": "Mọi hành trình đều bắt đầu từ một hạt mầm và niềm tin rằng những điều nhỏ bé có thể nở hoa.",
-      "image": "/assets/uploads/meo-gieo-hat-truc-tiep-–-nay-mam-nhanh-khong-bi-hong-2-1.jpg"
+      "image": "/assets/uploads/1.avif"
     },
     {
       "caption": "Một góc ban công giản dị dần trở thành nơi đón nắng, ngắm hoa và tìm lại sự bình yên",
-      "image": "/assets/uploads/742317219_3124932297716140_3757756899040212053_n.jpg"
+      "image": "/assets/uploads/pexels-kseniya-kopna-52379050-11741641.jpg"
+    },
+    {
+      "caption": "Mỗi lần cây ra lá mới, nở bông đầu tiên hay vượt qua một mùa mưa đều là một bài học đáng quý.",
+      "image": "/assets/uploads/pexels-sasha-kim-9413750.jpg"
+    },
+    {
+      "caption": "Tôi kiên trì tìm kiếm những giống hoa khỏe, đẹp và dễ chăm để niềm vui làm vườn trở nên gần gũi hơn.",
+      "image": "/assets/uploads/736959673_1060669286317109_3533760119989357493_n.png"
+    },
+    {
+      "caption": "Vũ Vũ Garden mong được trao đến bạn không chỉ hạt giống, mà còn cả cảm hứng để vun trồng hạnh phúc mỗi ngày.",
+      "image": "/assets/uploads/745373826_3127013907507979_5392258977273922532_n.jpg"
     }
   ],
   "testimonials": [
@@ -99,18 +95,13 @@
   "phoneRaw": "08798981291",
   "categories": [
     {
-      "name": "Cây giống hoa",
-      "subtitle": "Cây khỏe, sẵn sàng chăm",
-      "image": "https://images.unsplash.com/photo-1509423350716-97f2360af8e4?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "name": "Hạt giống hoa",
-      "subtitle": "Gieo từ những điều nhỏ",
+      "name": "HẠT GIỐNG HOA",
+      "subtitle": "Gieo những mầm nhỏ, đón khu vườn rực rỡ",
       "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"
     },
     {
-      "name": "Hoa ban công",
-      "subtitle": "Phù hợp không gian nhỏ",
+      "name": "CÂY GIỐNG HOA",
+      "subtitle": "Cây khỏe, dễ chăm, sẵn sàng làm đẹp không gian sống",
       "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80"
     },
     {
