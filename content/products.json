@@ -116,6 +116,19 @@
       "image": "/assets/uploads/736959673_1060669286317109_3533760119989357493_n.png",
       "description": "dsafgvshbakml;fcd xzanml;,dsakjl",
       "category": "củ"
+    },
+    {
+      "oldPrice": 22821000,
+      "badge": "CHẠY",
+      "price": 1890000,
+      "name": "HAT GIONG 9 ĐONG",
+      "featured": true,
+      "status": "available",
+      "stock": 20,
+      "id": "NGU NGỌN",
+      "image": "/assets/uploads/745373826_3127013907507979_5392258977273922532_n.jpg",
+      "description": "ASDFGHJKL;''\n",
+      "category": "HAT"
     }
   ]
 }
