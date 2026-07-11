@@ -1,7 +1,7 @@
 {
-  "heroImage": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=85",
+  "heroImage": "/assets/uploads/727346329_1580103003534082_8878298058198274775_n.jpg",
   "zaloUrl": "https://zalo.me/",
-  "heroText": "Chọn cây giống, hạt giống và nhận hướng dẫn chăm sóc phù hợp với nắng, gió và không gian của chính ngôi nhà bạn.",
+  "heroText": "Khám phá hạt giống và cây hoa nhập khẩu chọn lọc, dễ trồng, phù hợp với ban công và sân vườn nhà bạn. Vũ Vũ Garden đồng hành cùng bạn từ lúc gieo hạt đến ngày hoa nở.",
   "brand": "Vũ Vũ Garden - Hạt Giống Hạnh Phúc",
   "footerText": "Cây giống hoa, hạt giống hoa và kinh nghiệm làm vườn dành cho những người muốn bắt đầu từ một góc nhỏ.",
   "facebookUrl": "https://facebook.com/",
@@ -164,6 +164,6 @@
       "excerpt": "Lịch chỉ là điểm bắt đầu; nhiệt độ và khí hậu tại nơi trồng mới là yếu tố quyết định."
     }
   ],
-  "heroTitle": "Biến góc ban công nhỏ thành khu vườn rực rỡ",
-  "ownerName": "Làm đẹp thêm cho khu vườn của bạn !"
+  "heroTitle": "Gieo một hạt mầm, nở cả khu vườn hạnh phúc",
+  "ownerName": "Vũ Vũ Garden – Người gieo những mầm xanh"
 }
