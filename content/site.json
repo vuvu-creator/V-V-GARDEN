@@ -12,42 +12,32 @@
   "gallery": [
     {
       "category": "Hoa cúc",
-      "image": "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=900&q=80",
-      "caption": "Một góc hoa cúc trong nắng sớm"
+      "image": "/assets/uploads/images-4-.jpg",
+      "caption": "Một góc hoa trong nắng sớm"
     },
     {
       "category": "Ban công",
-      "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=900&q=80",
+      "image": "/assets/uploads/images-5-.jpg",
       "caption": "Ban công xanh với nhiều tầng cây"
     },
     {
       "category": "Cây giống",
-      "image": "https://images.unsplash.com/photo-1509423350716-97f2360af8e4?auto=format&fit=crop&w=900&q=80",
+      "image": "/assets/uploads/huong-dan-dong-goi-va-van-chuyen-cay-canh-khi-chuyen-nha-2-1-2.jpg",
       "caption": "Cây giống khỏe trước khi đóng gói"
     },
     {
-      "category": "Hoa hồng",
-      "image": "https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=900&q=80",
-      "caption": "Hoa hồng trong vườn"
+      "category": "Hoa trong vườn nhà",
+      "image": "/assets/uploads/khu-vuon-dep-nhu-tranh-ve-15-16456039023431958937277-1703214867333-1703214867474459467598-1703644482641-1703644482816250811572.webp",
+      "caption": "Những khóm hoa nhiều màu sắc trong vườn"
     },
     {
-      "category": "Hoa mùa",
-      "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+      "category": "Hoa theo ta khắp nơi",
+      "image": "/assets/uploads/images-6-.jpg",
       "caption": "Khu vườn nhiều sắc hoa"
     },
     {
-      "category": "Ban công",
-      "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
-      "caption": "Không gian thư giãn giữa cây xanh"
-    },
-    {
-      "category": "Cây giống",
-      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
-      "caption": "Chuẩn bị cây và dụng cụ làm vườn"
-    },
-    {
       "category": "Hoa mùa",
-      "image": "https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=900&q=80",
+      "image": "/assets/uploads/mua-thu-trong-hoa-gi-4.jpg",
       "caption": "Hoa nở rực rỡ theo mùa"
     }
   ],
@@ -75,19 +65,43 @@
   ],
   "testimonials": [
     {
-      "name": "Khách hàng A.",
-      "text": "Cây đóng gói chắc chắn, lúc nhận vẫn tươi. Shop còn nhắn hướng dẫn cách cho cây làm quen với nắng.",
-      "note": "Phản hồi minh họa — cần thay bằng đánh giá thật"
+      "name": "Nguyễn Thị Nam - Bình Dương",
+      "text": "Cây được đóng gói khá chắc chắn, lúc nhận lá vẫn tươi và bầu đất không bị đổ ra ngoài. Shop còn nhắn hướng dẫn cách đặt cây ở nơi có ánh sáng nhẹ trong những ngày đầu nên cây thích nghi rất nhanh.",
+      "note": ""
     },
     {
-      "name": "Khách hàng B.",
-      "text": "Mình mới tập trồng nhưng phần hướng dẫn dễ hiểu. Khi cây có dấu hiệu vàng lá, shop phản hồi khá nhanh.",
-      "note": "Phản hồi minh họa — cần thay bằng đánh giá thật"
+      "name": "Trương Tấn Du - Hà Nội",
+      "text": "Mình mua hạt giống hoa mười giờ và hướng dương. Trên mỗi gói đều có hướng dẫn gieo khá rõ ràng, phù hợp với người chưa từng trồng hoa như mình. Sau vài ngày, hạt đã bắt đầu nảy mầm khá đều.",
+      "note": ""
     },
     {
-      "name": "Khách hàng C.",
-      "text": "Combo có đủ hạt, đất ươm và hướng dẫn nên đỡ phải mua lẻ nhiều nơi. Phù hợp cho người mới.",
-      "note": "Phản hồi minh họa — cần thay bằng đánh giá thật"
+      "name": "Nguyễn Đinh Như Anh - Lạng Sơn",
+      "text": "Combo dành cho người mới khá tiện vì có hạt giống, đất ươm, khay trồng và hướng dẫn đầy đủ. Mình không phải mất thời gian tìm mua từng món riêng. Cách hướng dẫn đơn giản, dễ thực hiện tại nhà.",
+      "note": ""
+    },
+    {
+      "name": "Phan Văn Cường - Hải Phòng",
+      "text": "Shop tư vấn rất kỹ loại hoa phù hợp với ban công nhiều nắng của nhà mình. Cây nhận được khỏe, đúng mô tả và dễ chăm. Khi mình hỏi về tình trạng lá hơi vàng, shop phản hồi nhanh và hướng dẫn cụ thể."
+    },
+    {
+      "name": "Phạm Hoàng Phong - Gia Lai",
+      "text": "Mình hài lòng nhất là shop không chỉ bán hàng mà còn theo dõi tình trạng cây sau khi giao. Cây phát triển ổn định, bắt đầu ra thêm lá mới và làm góc ban công của mình sinh động hơn rất nhiều."
+    },
+    {
+      "text": "Mình đặt một số loại hạt giống để trồng cùng bé ở nhà. Hạt được đóng gói gọn gàng, có ghi tên từng loại nên rất dễ phân biệt. Bé rất thích theo dõi cây nảy mầm mỗi ngày, còn mình thấy đây là một hoạt động vừa vui vừa ý nghĩa.",
+      "name": "Trânf Thị Như Hạ - Quảng Nam"
+    },
+    {
+      "name": "Nguyễn Trần Xuân Kiêm - Khánh Hòa",
+      "text": "Cây giao đến đúng loại mình đặt, kích thước phù hợp với ban công nhỏ. Shop tư vấn khá thật, nói rõ loại nào cần nhiều nắng và loại nào dễ chăm nên mình chọn được cây phù hợp, không bị mua theo cảm tính."
+    },
+    {
+      "name": "Lê Hoàng Anh - TP Hồ Chí Minh",
+      "text": "Mình từng gieo hạt nhiều lần ở các shop khác nhưng cây thường không lên. Sau khi mua ở shop và làm theo hướng dẫn về độ sâu gieo, cách tưới và vị trí đặt khay, tỷ lệ nảy mầm tốt hơn rõ rệt. Phần hỗ trợ sau mua cũng rất nhiệt tình."
+    },
+    {
+      "name": "Quách Minh Hy - Lào Cai",
+      "text": "Mình mua cây để làm quà tặng và rất hài lòng với cách đóng gói. Cây sạch sẽ, chậu đẹp, không bị xô lệch khi vận chuyển. Người nhận rất thích vì món quà vừa dễ thương vừa có thể chăm lâu dài."
     }
   ],
   "location": "Việt Nam",
@@ -96,28 +110,23 @@
   "categories": [
     {
       "name": "HẠT GIỐNG HOA",
-      "subtitle": "Gieo những mầm nhỏ, đón khu vườn rực rỡ",
-      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"
+      "subtitle": "Hạt giống nhập khẩu đến từ những thương hiệu uy tín, bảo quản tốt, tỉ lệ nảy mầm >95%",
+      "image": "/assets/uploads/hạt-giống-hoa.jpg"
     },
     {
       "name": "CÂY GIỐNG HOA",
-      "subtitle": "Cây khỏe, dễ chăm, sẵn sàng làm đẹp không gian sống",
-      "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=800&q=80"
+      "subtitle": "Những cây hoa khỏe mạnh, dễ chăm, được tuyển chọn để mang sắc màu và sức sống đến ban công, sân vườn và mọi góc nhỏ trong ngôi nhà.",
+      "image": "/assets/uploads/64-2.png"
     },
     {
-      "name": "Hoa chịu nắng",
-      "subtitle": "Dành cho ban công nhiều nắng",
-      "image": "https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "name": "Combo người mới",
-      "subtitle": "Đủ hạt, đất và hướng dẫn",
-      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80"
+      "name": "COMBO DÀNH CHO BẠN",
+      "subtitle": "Tuyển tập nhiều loại hạt giống trong một combo - Tiện lợi cho bạn trong việc lựa chọn và trồng cây",
+      "image": "/assets/uploads/images.jpg"
     },
     {
       "name": "Đất & dụng cụ",
       "subtitle": "Chuẩn bị cho lần gieo đầu",
-      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80"
+      "image": "/assets/uploads/1.avif"
     }
   ],
   "email": "bacsi.hoahong.31@gmail.com",
@@ -125,38 +134,38 @@
     {
       "title": "Cách chọn hoa phù hợp với hướng nắng của ban công",
       "tag": "Dành cho người mới",
-      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Xác định số giờ nắng trước khi mua giúp giảm đáng kể nguy cơ cây suy yếu sau vài tuần."
+      "image": "/assets/uploads/2023_05_30_09_53_4613.png",
+      "excerpt": "Không phải loại hoa nào cũng phù hợp với mọi ban công. Trước khi chọn cây hoặc hạt giống, bạn nên quan sát khu vực trồng nhận nắng vào thời điểm nào và kéo dài bao lâu trong ngày. Đây là yếu tố quan trọng giúp cây sinh trưởng khỏe, ít sâu bệnh và ra hoa ổn định hơn.\n\nBan công hướng Đông thường nhận nắng buổi sáng, ánh sáng dịu và nhiệt độ không quá cao. Khu vực này phù hợp với nhiều loại hoa như dừa cạn, cúc, thu hải đường, phong lữ hoặc một số giống hồng nhỏ. Ban công hướng Tây nhận nắng mạnh vào buổi chiều, nhiệt độ thường cao và đất nhanh khô. Vì vậy, nên ưu tiên các loại hoa chịu nắng tốt như mười giờ, hoa giấy, chiều tím, mào gà hoặc hướng dương.\n\nBan công hướng Nam thường có thời gian chiếu sáng tương đối ổn định, phù hợp với nhiều loại hoa nếu được thông thoáng. Trong khi đó, ban công hướng Bắc thường ít nắng trực tiếp hơn, nên lựa chọn các giống cây ưa sáng nhẹ hoặc chịu bóng bán phần.\n\nNgoài hướng nắng, bạn cũng cần chú ý đến gió, diện tích chậu và khả năng thoát nước. Ban công tầng cao thường có gió mạnh, dễ làm cây mất nước hoặc gãy cành. Khi đó, nên sử dụng chậu chắc chắn, đặt cây sát tường hoặc làm giàn chắn gió phù hợp.\n\nCách đơn giản nhất là theo dõi ban công trong khoảng ba ngày, ghi lại số giờ có nắng trực tiếp. Khi biết rõ điều kiện thực tế, bạn sẽ chọn đúng loại hoa hơn và tránh tình trạng cây đẹp lúc mới mua nhưng nhanh suy yếu sau vài tuần."
     },
     {
       "title": "Trộn giá thể sao cho vừa giữ ẩm vừa không úng rễ",
       "tag": "Kinh nghiệm thật",
-      "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Một công thức giá thể tốt cần được điều chỉnh theo loại cây, chậu và tần suất tưới."
+      "image": "/assets/uploads/images-1-.jpg",
+      "excerpt": "Giá thể tốt không chỉ giúp cây đứng vững mà còn phải giữ đủ độ ẩm, thông thoáng và thoát nước nhanh. Nếu hỗn hợp trồng quá chặt, rễ cây thiếu không khí và dễ bị thối. Ngược lại, nếu giá thể quá nhẹ và thoát nước quá nhanh, cây sẽ nhanh khô, đặc biệt trong những ngày nắng nóng.\n\nMột công thức đơn giản cho người mới có thể gồm đất sạch, xơ dừa đã xử lý, trấu hun và một lượng nhỏ phân hữu cơ hoai mục. Đất sạch cung cấp nền dinh dưỡng; xơ dừa giúp giữ ẩm; trấu hun làm giá thể tơi xốp và tăng khả năng thoát nước. Tỷ lệ có thể điều chỉnh tùy loại cây, loại chậu và điều kiện thời tiết.\n\nVới các loại hoa trồng chậu cần độ ẩm vừa phải, có thể tham khảo hỗn hợp gồm khoảng 40% đất sạch, 30% xơ dừa, 20% trấu hun và 10% phân hữu cơ. Đây chỉ là tỷ lệ tham khảo, không phải công thức cố định. Nếu khu vực trồng nhiều nắng, giá thể có thể tăng nhẹ thành phần giữ ẩm. Nếu khu vực mưa nhiều hoặc chậu đặt ngoài trời, cần tăng thành phần thoát nước.\n\nTrước khi trồng, hãy kiểm tra lỗ thoát nước dưới đáy chậu. Không nên lót đáy chậu bằng vật liệu quá dày vì có thể làm giảm không gian phát triển của rễ. Sau khi trộn, nắm một ít giá thể trong tay: nếu hỗn hợp kết lại nhẹ nhưng dễ tơi ra khi chạm, độ ẩm và độ xốp tương đối phù hợp.\n\nCần tránh dùng đất thịt nặng nguyên chất hoặc phân chưa hoai. Một giá thể tốt sẽ giúp rễ phát triển khỏe, cây hấp thu dinh dưỡng tốt và giảm đáng kể nguy cơ úng rễ."
     },
     {
       "title": "7 lỗi thường gặp khiến hạt hoa chậm nảy mầm",
       "tag": "Gieo hạt",
-      "image": "https://images.unsplash.com/photo-1457530378978-8bac673b8062?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Gieo quá sâu, đất quá ướt và nhiệt độ không phù hợp là những lỗi người mới dễ gặp."
+      "image": "/assets/uploads/images-2-.jpg",
+      "excerpt": "Hạt hoa không nảy mầm đúng thời gian chưa chắc là do hạt kém chất lượng. Trong nhiều trường hợp, nguyên nhân đến từ cách gieo và điều kiện chăm sóc ban đầu. Dưới đây là bảy lỗi người mới thường gặp.\n\nLỗi đầu tiên là gieo hạt quá sâu. Nhiều loại hạt nhỏ chỉ cần phủ một lớp giá thể rất mỏng. Nếu bị chôn sâu, mầm non khó vươn lên mặt đất. Lỗi thứ hai là tưới nước quá mạnh, khiến hạt bị trôi, dồn vào một góc hoặc chìm sâu hơn.\n\nLỗi thứ ba là giữ giá thể quá ướt. Hạt cần độ ẩm để nảy mầm nhưng không chịu được tình trạng ngập nước kéo dài. Độ ẩm quá cao làm hạt dễ thối hoặc phát sinh nấm. Ngược lại, để bề mặt giá thể khô hoàn toàn trong giai đoạn đầu cũng khiến quá trình nảy mầm bị gián đoạn.\n\nLỗi thứ tư là nhiệt độ không phù hợp. Mỗi loại hoa có khoảng nhiệt độ nảy mầm khác nhau. Gieo hạt vào thời điểm quá nóng hoặc quá lạnh có thể làm hạt nảy chậm. Lỗi thứ năm là dùng giá thể cũ, nén chặt hoặc có mầm bệnh.\n\nLỗi thứ sáu là đặt khay gieo dưới nắng gắt ngay từ đầu. Ánh nắng mạnh làm bề mặt đất khô nhanh và nhiệt độ trong khay tăng cao. Cuối cùng là thiếu kiên nhẫn. Một số hạt nảy sau vài ngày, nhưng cũng có loại cần từ một đến ba tuần.\n\nĐể tăng khả năng nảy mầm, hãy đọc kỹ hướng dẫn từng giống, dùng bình phun sương, giữ ẩm vừa phải và đặt khay ở nơi sáng nhẹ, thông thoáng. Nếu gieo đúng kỹ thuật nhưng hạt vẫn không nảy sau thời gian dự kiến, bạn nên kiểm tra lại lô hạt và điều kiện bảo quản."
     },
     {
       "title": "Cây mới nhận về nên chăm thế nào trong 7 ngày đầu",
       "tag": "Chăm cây",
-      "image": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Đừng thay chậu và bón phân quá sớm. Cây cần thời gian làm quen với môi trường mới."
+      "image": "/assets/uploads/images-3-.jpg",
+      "excerpt": "Bảy ngày đầu sau khi nhận cây là giai đoạn quan trọng giúp cây thích nghi với môi trường mới. Trong thời gian vận chuyển, cây có thể bị thiếu sáng, rung lắc, mất nước hoặc thay đổi nhiệt độ. Vì vậy, không nên vội thay chậu, bón phân hoặc đặt cây dưới nắng mạnh ngay khi vừa nhận.\n\nKhi mở kiện, hãy kiểm tra thân, lá, bầu đất và độ ẩm. Nếu có lá dập hoặc cành gãy nhẹ, có thể cắt bỏ bằng kéo sạch. Nếu bầu đất vẫn ẩm, chưa cần tưới thêm. Nếu đất quá khô, tưới từ từ quanh gốc, tránh tưới quá nhiều trong một lần.\n\nTrong hai đến ba ngày đầu, nên đặt cây ở nơi sáng, thông thoáng nhưng tránh nắng gắt và gió mạnh. Sau đó, tăng dần thời gian tiếp xúc với ánh nắng phù hợp với từng loại cây. Việc đưa cây ra nắng mạnh ngay lập tức có thể làm lá cháy hoặc cây mất nước nhanh.\n\nKhông nên bón phân trong tuần đầu, đặc biệt khi cây đang yếu hoặc vừa trải qua quãng đường vận chuyển dài. Rễ cần thời gian ổn định trước khi tiếp nhận thêm dinh dưỡng. Chỉ nên thay chậu khi bầu cây bị vỡ, đất có dấu hiệu úng hoặc chậu quá nhỏ. Nếu cây vẫn ổn định, có thể chờ từ một đến hai tuần.\n\nTrong bảy ngày đầu, hãy quan sát màu lá, độ cứng của thân và độ ẩm đất mỗi ngày. Lá hơi rũ sau vận chuyển có thể là phản ứng tạm thời, nhưng nếu tình trạng kéo dài, cần kiểm tra lại nước, ánh sáng và rễ.\n\nChăm cây mới nhận về cần sự kiên nhẫn. Mục tiêu đầu tiên không phải làm cây ra hoa ngay, mà là giúp cây hồi phục và thích nghi tốt với không gian sống mới."
     },
     {
       "title": "Cách đóng gói cây nhỏ để giảm dập gãy khi vận chuyển",
       "tag": "Sau khu vườn",
-      "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Cố định bầu đất, bảo vệ tán và chọn thời điểm gửi là ba yếu tố quan trọng."
+      "image": "/assets/uploads/huong-dan-dong-goi-va-van-chuyen-cay-canh-khi-chuyen-nha-2-1-2.jpg",
+      "excerpt": "Đóng gói cây sống khác hoàn toàn với đóng gói hàng hóa thông thường. Cây có thân, lá, bầu đất và độ ẩm, nên chỉ một thao tác sai cũng có thể làm cây gãy cành, rơi đất hoặc úng trong quá trình vận chuyển.\n\nTrước khi đóng gói, nên kiểm tra tình trạng cây và loại bỏ lá úa, cành yếu hoặc phần bị sâu bệnh. Không nên tưới quá nhiều ngay trước khi gửi. Đất quá ướt làm kiện hàng nặng, dễ chảy nước và có thể khiến rễ thiếu không khí. Tuy nhiên, cũng không nên để bầu đất quá khô.\n\nBầu đất cần được cố định bằng giấy, túi hoặc màng bọc phù hợp. Phần miệng chậu nên được che kín vừa đủ để hạn chế đất rơi ra ngoài, nhưng không quấn quá chặt làm tổn thương thân cây. Với cây có tán rộng, có thể gom nhẹ cành lá theo chiều thẳng đứng bằng vật liệu mềm.\n\nThùng đóng gói nên có kích thước vừa với cây. Nếu thùng quá rộng, cây dễ va đập khi vận chuyển. Nếu quá chật, cành và lá sẽ bị ép. Có thể dùng giấy vụn, bìa carton hoặc vật liệu chèn để giữ chậu đứng ổn định. Tránh dùng vật liệu quá cứng chèn trực tiếp vào thân cây.\n\nTrên thùng nên ghi rõ “Cây sống”, “Để thẳng” hoặc “Hàng dễ vỡ”. Tuy vậy, nhãn cảnh báo không thể thay thế cho việc đóng gói chắc chắn. Với cây quá cao, tán mềm hoặc đang nhiều hoa, cần cân nhắc giao gần thay vì gửi đường dài.\n\nCuối cùng, nên chọn thời điểm gửi phù hợp, tránh để cây nằm lâu trong kho vào cuối tuần hoặc ngày lễ. Đóng gói tốt không đảm bảo cây hoàn toàn không bị ảnh hưởng, nhưng sẽ giảm đáng kể nguy cơ dập gãy và giúp cây phục hồi nhanh hơn khi đến tay khách hàng."
     },
     {
       "title": "Lịch trồng một số loại hoa phổ biến theo mùa",
       "tag": "Theo mùa",
-      "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80",
-      "excerpt": "Lịch chỉ là điểm bắt đầu; nhiệt độ và khí hậu tại nơi trồng mới là yếu tố quyết định."
+      "image": "/assets/uploads/mua-thu-trong-hoa-gi-4.jpg",
+      "excerpt": "Chọn đúng thời điểm gieo trồng giúp cây phát triển thuận lợi, giảm sâu bệnh và tăng khả năng ra hoa. Tuy nhiên, lịch trồng chỉ mang tính tham khảo vì khí hậu giữa các vùng có sự khác biệt. Nhiệt độ, lượng mưa và điều kiện thực tế tại nơi trồng vẫn là yếu tố quan trọng nhất.\n\nVào mùa xuân, thời tiết thường ấm dần và có độ ẩm tương đối phù hợp. Đây là thời điểm thích hợp để gieo nhiều loại hoa như hướng dương, cúc, mào gà, sao nhái và dừa cạn. Cần chú ý những đợt mưa kéo dài vì cây non dễ bị úng.\n\nMùa hè có nhiệt độ cao và ánh nắng mạnh. Các loại hoa chịu nắng như mười giờ, dừa cạn, hoa giấy, chiều tím và hướng dương thường phát triển tốt hơn. Khi trồng trong chậu nhỏ, nên kiểm tra độ ẩm thường xuyên, nhưng không tưới khi đất vẫn còn quá ướt.\n\nMùa thu có thời tiết dịu hơn, phù hợp để gieo các loại hoa ưa mát như cúc, thược dược, sao nhái và một số giống hoa trang trí cuối năm. Đây cũng là thời điểm tốt để chuẩn bị các chậu hoa phục vụ dịp Tết, tùy theo thời gian sinh trưởng của từng giống.\n\nMùa đông ở miền Bắc có nhiệt độ thấp, thích hợp với một số loại hoa ưa lạnh như cúc, viola, dạ yến thảo hoặc phong lữ. Trong khi đó, miền Nam có khí hậu ấm hơn nên lịch gieo trồng linh hoạt hơn, nhưng cần lưu ý mùa mưa và độ ẩm cao.\n\nTrước khi gieo, hãy kiểm tra thời gian từ lúc gieo đến khi ra hoa. Nếu muốn hoa nở vào một dịp cụ thể, cần gieo sớm hơn và dự phòng những thay đổi do thời tiết. Việc ghi chép ngày gieo, thời gian nảy mầm và ngày ra hoa sẽ giúp bạn xây dựng lịch trồng phù hợp hơn cho những mùa sau."
     }
   ],
   "heroTitle": "Gieo một hạt mầm, nở cả khu vườn hạnh phúc",
